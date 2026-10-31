@@ -74,9 +74,16 @@ Power BI Desktop: Used to develop a three-page interactive report, including a n
 
 Home Page: The project headline, buttons to navigate to the two dashboard pages, and a short explanation of the terms used.
 
+![Dashboard Preview](https://github.com/Biswas014/Customer-Analytics---RFM-Segmentation/blob/main/Snapshots/Home_Page.JPG)
+
 Business Overview: This page opens with four KPIs: distinct customers, total revenue, average customer value and churn ratio at left. At right, it compares revenue and customer count across segments, and shows how many customers and how much revenue come from churned vs active customers in each segment. Quarterly and monthly charts show how customers and revenue performed over time. Slicers for customer segment, churned status and time (year, quarter, month) filter every visual on the page.
 
+![Dashboard Preview](https://github.com/Biswas014/Customer-Analytics---RFM-Segmentation/blob/main/Snapshots/Overview.JPG)
+
 RFM Analysis: This page starts with an RFM summary view. Next to it, a button switches between average customer value by top 5 countries and by customer segment. Churn ratio is shown by year, quarter and month. Slicers for customer segment, churned status and time (year, quarter, month) filter every visual on the page.
+
+![Dashboard Preview](https://github.com/Biswas014/Customer-Analytics---RFM-Segmentation/blob/main/Snapshots/RFM%20Analysis.JPG
+)
 
 ## Data Limitations
 
@@ -92,5 +99,5 @@ rfm['M_Score'] = pd.qcut(rfm['monetary'],5,labels= [1,2,3,4,5]).astype(int)
 
 ## Live Report
 
-
+[Live Report](https://app.powerbi.com/reportEmbed?reportId=5c65c58d-100e-47f7-b85b-9cd14ce204c1&autoAuth=true&ctid=56c1d497-700b-49cf-8f8d-3dd6b20d522f)
 
